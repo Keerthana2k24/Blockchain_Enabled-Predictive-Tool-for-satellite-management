@@ -59,3 +59,4 @@ http://localhost:5000
 - Mobile application for satellite health monitoring
 
 ## "Building the future of secure satellite operations with predictive analytics and blockchain technology."
+To know more about this paper read it here : https://irojournals.com/aicn/article/view/7/1/2
