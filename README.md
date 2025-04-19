@@ -33,7 +33,7 @@ The aim of this project is to predict potential satellite downtimes by analyzing
 - Pandas, NumPy: Telemetry data analysis
 
 ## Project Structure
-
+'''
 ├── _trying.py
 ├── satellite_data.csv
 ├── templates/
@@ -43,7 +43,7 @@ The aim of this project is to predict potential satellite downtimes by analyzing
 │   └── style.css
 ├── README.md
 └── LICENSE
-
+'''
 ## Access the Web Application: [To Access it by giving one of the satellite id from the dataset]
 
 http://localhost:5000
