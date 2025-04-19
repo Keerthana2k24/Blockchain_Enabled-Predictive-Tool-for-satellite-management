@@ -34,7 +34,7 @@ The aim of this project is to predict potential satellite downtimes by analyzing
 
 ## Project Structure
 ```
-├── _trying.py
+├── trying.py
 ├── satellite_data.csv
 ├── templates/
 │   ├── index.html
