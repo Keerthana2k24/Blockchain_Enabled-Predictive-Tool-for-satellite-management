@@ -44,7 +44,7 @@ The aim of this project is to predict potential satellite downtimes by analyzing
 ├── README.md
 └── LICENSE
 
-## Access the Web Application:
+## Access the Web Application: [To Access it by giving one of the satellite id from the dataset]
 
 http://localhost:5000
 
