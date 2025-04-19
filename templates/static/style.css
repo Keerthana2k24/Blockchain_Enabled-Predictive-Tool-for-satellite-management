@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#status-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.device {
+    margin: 10px 0;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
