@@ -6,31 +6,31 @@ The aim of this project is to predict potential satellite downtimes by analyzing
 
 ## Features
 
-Satellite telemetry monitoring
+- Satellite telemetry monitoring
 
-Predictive analysis based on historical satellite data using supervised learning algorithm
+- Predictive analysis based on historical satellite data using supervised learning algorithm
 
-Anomaly detection based on predefined thresholds 
+- Anomaly detection based on predefined thresholds 
 
-Secure storage of telemetry logs and alerts on Hyperledger Fabric
+- Secure storage of telemetry logs and alerts on Hyperledger Fabric
 
-Smart contract (chaincode) triggered alerts for detected anomalies
+- Smart contract (chaincode) triggered alerts for detected anomalies
 
-REST API integration for seamless backend communication
+- REST API integration for seamless backend communication
 
-Flask-based Web Application for dashboard visualization and monitoring
+- Flask-based Web Application for dashboard visualization and monitoring
 
 ## Proposed Technologies
 
-Python: Data processing and backend logic
+- Python: Data processing and backend logic
 
-Flask: Web server and REST API handling
+- Flask: Web server and REST API handling
 
-Docker & Docker Compose: Containerization of services
+- Docker & Docker Compose: Containerization of services
 
-Hyperledger Fabric: Blockchain network for secure data storage
+- Hyperledger Fabric: Blockchain network for secure data storage
 
-Pandas, NumPy: Telemetry data analysis
+- Pandas, NumPy: Telemetry data analysis
 
 ## Project Structure
 
@@ -50,12 +50,12 @@ http://localhost:5000
 
 ## Future Enhancements
 
-AI-driven predictive models (Machine Learning for better forecasting)
+- AI-driven predictive models (Machine Learning for better forecasting)
 
-Integration with Inter-satellite communication networks
+- Integration with Inter-satellite communication networks
 
-Quantum-resistant blockchain security
+- Quantum-resistant blockchain security
 
-Mobile application for satellite health monitoring
+- Mobile application for satellite health monitoring
 
 ## "Building the future of secure satellite operations with predictive analytics and blockchain technology."
