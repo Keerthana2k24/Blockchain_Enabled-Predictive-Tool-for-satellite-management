@@ -1,0 +1,5 @@
+satellite_id,battery_level,signal_strength,temperature
+sat1,100,20,60
+satid122,45,100,60
+sat3,100,100,60
+sat4,50,60,40  

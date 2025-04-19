@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satellite Monitoring Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+       body {
+    background-image: url("https://watermark.lovepik.com/photo/40088/6026.jpg_wh1200.jpg");
+    background-size: 100%100%;      /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;  /* Centers the background image */
+    background-attachment: fixed; /* Keeps the image fixed even when scrolling */
+          /* Ensures the background covers the entire viewport width */
+}
+.container {
+    margin-top: 200px;
+    text-align: left;  /* Aligns the text inside the container to the left */
+    margin-left: 0;  
+       /* Ensures that the container itself aligns to the left */
+}
+
+.card {
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+        function disableButton() {
+            document.getElementById("submitButton").disabled = true;
+            document.getElementById("submitButton").innerHTML = "Checking...";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3>Satellite Status Checker</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="{{ url_for('satellite_status') }}" method="post" onsubmit="disableButton()">
+                            <div class="form-group">
+                                <label for="satelliteId">Enter Satellite ID:</label>
+                                <input type="text" class="form-control" id="satelliteId" name="satelliteId" required>
+                            </div>
+                            <button type="submit" id="submitButton" class="btn btn-primary">Check Status</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
